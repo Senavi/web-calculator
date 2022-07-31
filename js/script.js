@@ -80,9 +80,14 @@ topBtnSym.map(top_btnr => {
 
 
             case '=':
+                try {
+                    outputProcess.innerText = outputResult.innerText;
+                    outputResult.innerText = eval(outputResult.innerText);
 
-                outputProcess.innerText = outputResult.innerText;
-                outputResult.innerText = eval(outputResult.innerText);
+                } catch {
+
+                    outputProcess.innerText = 'WTF? Really?';
+                }
                 break;
 
             default:
