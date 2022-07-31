@@ -1,0 +1,372 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,
+*:before,
+*:after {
+
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+
+/*------------------------------------------------------------*/
+
+
+body {
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-weight: 300;
+    color: #fff;
+
+}
+
+
+.container {
+    width: 100%;
+    max-width: 490px;
+    margin: 0 auto;
+}
+
+
+.background {
+    display: block;
+    border-radius: 10px;
+    margin: 50px 0;
+    width: 490px;
+    height: 930px;
+    background-color: #222222;
+
+
+}
+
+.inner_bg {
+    border-radius: 10px;
+    width: 490px;
+    height: 321px;
+    background-color: #303030;
+    padding: 36px 41px;
+}
+
+
+
+.output_bar {
+
+    width: 409px;
+    height: 142px;
+    margin: 81px 0 0 0;
+
+
+}
+
+
+
+
+.output_process {
+    width: 409px;
+    height: 71px;
+    display: flex;
+    justify-content: end;
+    overflow: hidden;
+
+
+}
+
+
+.output_process p {
+    display: block;
+    font-size: 39px;
+    font-weight: 500;
+    color: #706E6E;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+.output_container {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.output_result {
+
+    width: 100%;
+    height: 71px;
+    display: flex;
+    justify-content: end;
+    overflow: hidden;
+
+}
+
+.output_result p{
+
+    font-size: 71px;
+    font-weight: 700;
+
+}
+
+
+
+
+.output_operator {
+
+    width: 71px;
+    height: 71px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.output_operator p {
+
+    font-size: 71px;
+    font-weight: 400;
+
+}
+
+
+
+
+
+p,
+span {
+
+    font-size: 18px;
+    font-weight: 300;
+    display: inline-block;
+}
+
+
+.title span {
+
+    display: inline;
+    font-weight: 700;
+
+}
+
+
+.top {
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.version {
+    color: #888888;
+}
+
+.bottom_bg {
+
+    margin: 12px;
+
+}
+
+.top_btn {
+
+    width: 107px;
+    height: 106px;
+    background-color: #5A5A5A;
+    font-size: 40px;
+    color: #fff;
+    font-weight: 300;
+    border-radius: 10px;
+    margin: 0 0 12px 0;
+}
+
+.top_btn:hover {
+
+    width: 107px;
+    height: 106px;
+    background-color: #717171;
+    font-size: 40px;
+    color: #fff;
+    font-weight: 300;
+    border-radius: 10px;
+}
+
+
+.top_btn:active {
+
+    width: 107px;
+    height: 106px;
+    background-color: #3a3a3a;
+    font-size: 40px;
+    color: #fff;
+    font-weight: 300;
+    border-radius: 10px;
+}
+
+
+
+
+.top_btnr {
+
+    background-color: #362B4C;
+    width: 107px;
+    height: 106px;
+    font-size: 40px;
+    color: #fff;
+    font-weight: 300;
+    border-radius: 10px;
+    margin: 0 0 12px 0;
+
+}
+
+
+.top_btnr:hover {
+
+    width: 107px;
+    height: 106px;
+    background-color: #4C3D6B;
+    font-size: 40px;
+    color: #fff;
+    font-weight: 300;
+    border-radius: 10px;
+
+
+}
+
+
+.top_btn_ver:active {
+
+    width: 107px;
+    height: 106px;
+    background-color: #2c233f;
+    font-size: 40px;
+    color: #fff;
+    font-weight: 300;
+    border-radius: 10px;
+
+
+}
+
+
+
+.top_btn_result {
+
+
+    width: 227px;
+    height: 106px;
+    background-color: #8951FF;
+    font-size: 40px;
+    color: #fff;
+    font-weight: 300;
+    border-radius: 10px;
+
+
+}
+
+.top_btn_result:hover {
+
+
+    width: 227px;
+    height: 106px;
+    background-color: #9D70FF;
+    font-size: 40px;
+    color: #fff;
+    font-weight: 300;
+    border-radius: 10px;
+
+
+}
+
+
+.top_btn_result:active {
+
+
+    width: 227px;
+    height: 106px;
+    background-color: #5f429e;
+    font-size: 40px;
+    color: #fff;
+    font-weight: 300;
+    border-radius: 10px;
+
+
+}
